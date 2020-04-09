@@ -42,6 +42,9 @@ defmodule SpaceCadetWeb do
       import SpaceCadetWeb.ErrorHelpers
       import SpaceCadetWeb.Gettext
       alias SpaceCadetWeb.Router.Helpers, as: Routes
+
+      # Components helpers
+      import SpaceCadetWeb.ComponentsHelpers
     end
   end
 
